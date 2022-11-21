@@ -42,4 +42,4 @@ Nedanför så får du resultatet av operationen du har valt.
 2. Istället för två tal så krävs bara ett tal, i detta demo så använder vi **numOne**.
 
 I bifogad bild så har vi avrundningstypen **ceiling**, vill du prova de andra avrundningstyperna så behöver du bara byta ut **ceiling** mot en av de andra typerna (**floor** eller **round**).
-![App Screenshot](https://i.gyazo.com/84f3944f169f33ec9a2fbc214a7d6465.png)
+![App Screenshot](https://i.gyazo.com/7e4f3b383fa62f86acc366b9b725b787.png)
