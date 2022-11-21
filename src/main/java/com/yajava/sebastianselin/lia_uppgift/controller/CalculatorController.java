@@ -18,10 +18,7 @@ public class CalculatorController {
     @Autowired
     private CalculatorRoundingService calRoundService;
 
-    @GetMapping("/test")
-    public void test() {
-        System.out.println("Test");
-    }
+
 
     @RequestMapping("/add")
     public double add(@RequestBody OperationModel model) {
@@ -39,6 +36,12 @@ public class CalculatorController {
     public double multiply(@RequestBody OperationModel model) {
         return calculatorService.multiply(model);
     }
+
+    @RequestMapping("/div")
+    public double div(@RequestBody OperationModel model) {
+        return calculatorService.div(model);
+    }
+
     @RequestMapping("/mod")
     public double mod(@RequestBody OperationModel model) {
         return calculatorService.mod(model);
