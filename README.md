@@ -22,20 +22,20 @@ Dessutom för avrundningstyper: **ceiling, floor, round**
  Projektet körs på localhost med port 9090.
  
  3. Öppna Postman
- 4. I postman, öppna en ny flik och skriv in länken `http://localhost:9090/ + operator` och välj **POST** funktionen. \
+ 4. I postman, öppna en ny flik och skriv in länken `http://localhost:9090/ + operator` och välj GET funktionen. \
 I detta exempel använder vi **add**:  `http://localhost:9090/add`\
-![App Screenshot](https://i.gyazo.com/0f98a30b32cdd26dc24c2b367ead816f.png)
+![App Screenshot](https://i.gyazo.com/d1e7cb81296532079480704f1fb4a190.png)
 
 5. Under länken så tryck på **Body** tabellen, välj **raw** text och sedan JSON format.
-![App Screenshot](https://i.gyazo.com/3badec6d9f432ff2c9816c67dd5569be.gif)
+![App Screenshot](https://i.gyazo.com/cd1121b8116e942932050edf3f812a0b.gif)
 
 
 
 I textfältet nedan så skriver du följande som står på bilden nedan och tryck på **Send**.
-![App Screenshot](https://i.gyazo.com/bf1fc51e50444ebba3c213e57bfe1e76.png)
+![App Screenshot](https://i.gyazo.com/9729f6c2fed710b038bc6dd03ea88dd1.png)
 
 Nedanför så får du resultatet av operationen du har valt.
-![App Screenshot](https://i.gyazo.com/9c9da6cc698df7eb4e60a8c2faaedfbf.png)
+![App Screenshot](https://i.gyazo.com/b49bf80b5529880d9187d69dd71db5a3.png)
 
 ## Instruktioner för avrundningstyper (För: **ceiling, floor, round**)
 1. Öppna projektet & Postman och lägg upp allt på samma sätt som tidigare.
